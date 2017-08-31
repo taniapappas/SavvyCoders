@@ -1,15 +1,7 @@
-# Hello, world
-## also pretty big
-### getting smaller
+# Tania's Haiku
 
-this is regular text
+_Rainbows grow in rain_
+ 
+**Desert cacti flower bright**
 
-_italicized_
-
-*also italicized*
-
-__bold__
-
-**also bold**
-
-___italicized___
+_Sky blue connects all_  
