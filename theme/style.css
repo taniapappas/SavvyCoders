@@ -1,5 +1,10 @@
+body {
+  background-image: url('https://i.ytimg.com/vi/48XpWy0OwoU/maxresdefault.jpg');
+  color: #9500ff;
+}
+
 h1 {
-  color: hotpink;
+  color: purple;
 }
 .slanted{
   font-style: italic;
