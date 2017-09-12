@@ -12,3 +12,15 @@ h1 {
 #emphatic {
   font-weight: bold;
 }
+.navigation li {
+  margin: 20 px;
+  padding: 10 px;
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+}
