@@ -1,11 +1,11 @@
-function promptAndGreetUser(){
-    var userInput = prompt( "What is your name?" );
+/* globals $ */
+/* eslint-disable no-console */
+var $ol = $( "ol" );
 
-    if( !userInput ){
-        userInput = prompt( "What's your name, for reals?" );
-    }
-    else{
-        alert( "Hello, " + userInput );
-    }
+function clickHandler(){
+    $( this ).text( "I just got clicked!" );
+
+    // $ol.off( "click", clickHandler );
 }
-promptAndGreetUser();
+$ol.on( "click", "li", clickHandler );
+$( "h1" ).on( "click", () => console.log( "click" ) );
